@@ -21,6 +21,7 @@ const Index = () => {
               @keyframes typing {
                 from { width: 0 }
                 to { width: 100% }
+                0% { width: 0 }
               }
               @keyframes blink-caret {
                 from, to { border-color: transparent }
