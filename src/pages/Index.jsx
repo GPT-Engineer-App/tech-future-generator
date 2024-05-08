@@ -13,9 +13,21 @@ const Index = () => {
           <Text fontSize="3xl" color="white">
             Advancing Industries with
           </Text>
-          <Text fontSize="3xl" bgGradient="linear(to-r, teal.300, blue.500, purple.300)" bgClip="text">
+          <Text fontSize="3xl" bgGradient="linear(to-r, teal.300, blue.500, purple.300)" bgClip="text" style={{ overflow: "hidden", whiteSpace: "nowrap", borderRight: "3px solid orange", width: "0", animation: "typing 3.5s steps(40, end), blink-caret .75s step-end infinite" }}>
             Next-Gen Code Models_
           </Text>
+          <style>
+            {`
+              @keyframes typing {
+                from { width: 0 }
+                to { width: 100% }
+              }
+              @keyframes blink-caret {
+                from, to { border-color: transparent }
+                50% { border-color: orange; }
+              }
+            `}
+          </style>
         </VStack>
         <Button mt="20px" colorScheme="teal" size="lg">
           Apply for testing
