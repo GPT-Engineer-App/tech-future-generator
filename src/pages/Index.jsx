@@ -45,15 +45,19 @@ const Index = () => {
         <Text fontSize="26px" fontWeight="700" lineHeight="28px" color="white" textAlign="center" mt="23px">
           Data Dashboard generation
         </Text>
-        <Box w="1195px" h="620px" bg="gray.300" mt="16px" mx="auto">
-          <Text>Placeholder Image</Text>
+        <Box w="1195px" h="620px" bgGradient="linear(to-l, #7928CA, #FF0080)" mt="16px" mx="auto">
+          <Text color="white" textAlign="center" mt="290px">
+            Sci-Fi Styled Image
+          </Text>
         </Box>
       </Box>
 
       {/* Section 3 */}
       <Box bg="#06062C" w="full" h="616px">
-        <Box w="400px" h="411.11px" bg="gray.300" mt="26px" mx="auto">
-          <Text>Placeholder Image</Text>
+        <Box w="400px" h="411.11px" bgGradient="linear(to-r, #0F2027, #203A43, #2C5364)" mt="26px" mx="auto">
+          <Text color="white" textAlign="center" mt="205px">
+            Sci-Fi Styled Image
+          </Text>
         </Box>
         <Text fontSize="36px" fontWeight="700" lineHeight="47px" color="white" textAlign="center" mt="156px">
           Acumen beta testing recruitment
