@@ -6,14 +6,14 @@ const Index = () => {
     <Container maxW="1440px" p={0} m="auto">
       {/* Section 1 */}
       <VStack spacing={4} align="center" justify="center" minH="100vh" bg="#06062C">
-        <Heading as="h1" size="xl" color="white">
+        <Heading as="h1" size="2xl" color="white" textShadow="2px 2px 4px rgba(0,0,0,0.5)">
           AIGCode
         </Heading>
         <VStack spacing={3}>
-          <Text fontSize="2xl" color="white">
+          <Text fontSize="3xl" color="white">
             Advancing Industries with
           </Text>
-          <Text fontSize="2xl" color="teal.300">
+          <Text fontSize="3xl" bgGradient="linear(to-r, teal.300, blue.500, purple.300)" bgClip="text">
             Next-Gen Code Models_
           </Text>
         </VStack>
