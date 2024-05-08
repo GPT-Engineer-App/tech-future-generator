@@ -5,13 +5,16 @@ const Index = () => {
   return (
     <Container maxW="1440px" p={0} m="auto">
       {/* Section 1 */}
-      <VStack spacing={4} align="center" justify="center" minH="100vh" bg="#06062C">
+      <VStack spacing={4} align="center" justify="center" minH="100vh" bgImage="url('/sci-fi-background.jpg')" bgSize="cover" bgPosition="center">
         <Heading as="h1" size="2xl" color="white" textShadow="2px 2px 4px rgba(0,0,0,0.5)">
           AIGCode
         </Heading>
         <VStack spacing={3}>
-          <Text fontSize="3xl" color="white">
-            Advancing Industries with
+          <Text fontSize="3xl" color="white" textShadow="1px 1px 2px rgba(0,0,0,0.7)">
+            Advancing Industries with Groundbreaking Technologies
+          </Text>
+          <Text fontSize="xl" color="white" opacity="0.8" mt="2">
+            Explore the frontier of technology with us.
           </Text>
           <Text fontSize="3xl" bgGradient="linear(to-r, teal.300, blue.500, purple.300)" bgClip="text" style={{ overflow: "hidden", whiteSpace: "nowrap", borderRight: "3px solid orange", width: "0", animation: "typing 3.5s steps(50, end), blink-caret .75s step-end infinite" }}>
             Next-Gen Code Models_
@@ -30,7 +33,7 @@ const Index = () => {
             `}
           </style>
         </VStack>
-        <Button mt="20px" colorScheme="teal" size="lg">
+        <Button mt="20px" colorScheme="teal" size="lg" boxShadow="0px 0px 12px rgba(0,255,255,0.6)" _hover={{ transform: "scale(1.05)" }}>
           Apply for testing
         </Button>
       </VStack>
